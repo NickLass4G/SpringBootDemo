@@ -1,0 +1,13 @@
+jdbc:
+  jdbc.driverClassName=com.mysql.jdbc.Driver
+  jdbc.url=jdbc:mysql://127.0.0.1:3306/health
+  jdbc.username=root
+  jdbc.password=root
+
+logging:
+  level:
+    com.baidu: debug
+    org.springframework: info
+
+server:
+  port: 80
